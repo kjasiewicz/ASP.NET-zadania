@@ -25,9 +25,9 @@ namespace zadanie1.Controllers
         {
             var root = XElement.Load("http://news.google.pl/news?pz=1&cf=all&ned=pl_pl&hl=pl&output=rss");
             ViewBag.vb = root.Descendants("item").Select(x =>
-                new RssItem
+                new RssItemMVC
                 {
-                    Description = x.Element("description").Value,
+                    Description = new MvcHtmlString(x.Element("description").Value),
                     Title = x.Element("title").Value
                 }).ToList();
             return View();
