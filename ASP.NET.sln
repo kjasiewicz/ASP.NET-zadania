@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadanie1", "zadanie1\zadani
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity_Framework_example", "Entity_Framework_example\Entity_Framework_example.csproj", "{5ADF2583-B31A-4C57-ABA8-49421FAA7414}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cukiernia_EF", "Cukiernia_EF\Cukiernia_EF.csproj", "{176D17A1-CA89-4E36-AFCD-76A2BC279638}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5ADF2583-B31A-4C57-ABA8-49421FAA7414}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ADF2583-B31A-4C57-ABA8-49421FAA7414}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ADF2583-B31A-4C57-ABA8-49421FAA7414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{176D17A1-CA89-4E36-AFCD-76A2BC279638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{176D17A1-CA89-4E36-AFCD-76A2BC279638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{176D17A1-CA89-4E36-AFCD-76A2BC279638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{176D17A1-CA89-4E36-AFCD-76A2BC279638}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

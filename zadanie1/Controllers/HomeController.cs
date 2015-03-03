@@ -8,9 +8,11 @@ using zadanie1.Models;
 
 namespace zadanie1.Controllers
 {
+    [RoutePrefix("blabla")]
     public class HomeController : Controller
     {
         // GET: Home
+        [Route("cos",Name="path")]
         public ActionResult Index()
         {
             var root = XElement.Load("http://news.google.pl/news?pz=1&cf=all&ned=pl_pl&hl=pl&output=rss");

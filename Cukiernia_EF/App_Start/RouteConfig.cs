@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Entity_Framework_example
+namespace Cukiernia_EF
 {
     public class RouteConfig
     {
@@ -15,8 +15,8 @@ namespace Entity_Framework_example
 
             routes.MapRoute(
                 name: "Default",
-                url: "Kasia{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                url: "{controller}/{action}/{id}",
+                defaults: new { controller = "Zamowienias", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

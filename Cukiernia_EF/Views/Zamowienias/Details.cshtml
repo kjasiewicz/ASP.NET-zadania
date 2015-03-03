@@ -1,0 +1,58 @@
+﻿@model Cukiernia_EF.Models.Zamowienia
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Zamowienia</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Klient.NazwaFirmy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Klient.NazwaFirmy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WartoscZamowienia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WartoscZamowienia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataZamowienia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataZamowienia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataRealizacji)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataRealizacji)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Znizka)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Znizka)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ZamowieniaID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

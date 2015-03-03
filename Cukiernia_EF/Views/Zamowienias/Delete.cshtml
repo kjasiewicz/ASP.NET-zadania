@@ -1,0 +1,64 @@
+﻿@model Cukiernia_EF.Models.Zamowienia
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Zamowienia</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Klient.NazwaFirmy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Klient.NazwaFirmy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WartoscZamowienia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WartoscZamowienia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataZamowienia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataZamowienia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataRealizacji)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataRealizacji)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Znizka)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Znizka)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
