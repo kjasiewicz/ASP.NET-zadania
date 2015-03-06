@@ -21,12 +21,12 @@ namespace Ef_test
         public virtual Team Team { get; set; }
         [ForeignKey("Team")]
         public int ? TeamId { get; set; }
-        public virtual ICollection<Project> Projects { get; set; }
+        public virtual ICollection<ProjectMembers> ProjectMembers { get; set; }
         public string Name { get; set; }
         public eMemberTitle MemberTitle { get; set; }
         public Member()
         {
-            Projects= new HashSet<Project>();
+            ProjectMembers= new HashSet<ProjectMembers>();
         }
     }
 }

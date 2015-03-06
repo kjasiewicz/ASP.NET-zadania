@@ -10,10 +10,10 @@ namespace Ef_test
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public virtual ICollection<Member> Members { get; set; }
+        public virtual ICollection<ProjectMembers> ProjectMembers { get; set; }
         public Project()
         {
-            Members = new HashSet<Member>();
+            ProjectMembers = new HashSet<ProjectMembers>();
         }
     }
 }
