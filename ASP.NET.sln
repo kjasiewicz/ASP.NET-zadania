@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cukiernia_EF", "Cukiernia_E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ef_test", "Ef_test\Ef_test.csproj", "{15C8AE8D-9FC2-4F05-BB9C-EE7A6B45CB8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zajecia03_wf", "Zajecia03_wf\Zajecia03_wf.csproj", "{A833A759-687C-46D5-AE63-0F61FA64B9A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{15C8AE8D-9FC2-4F05-BB9C-EE7A6B45CB8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15C8AE8D-9FC2-4F05-BB9C-EE7A6B45CB8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15C8AE8D-9FC2-4F05-BB9C-EE7A6B45CB8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A833A759-687C-46D5-AE63-0F61FA64B9A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A833A759-687C-46D5-AE63-0F61FA64B9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A833A759-687C-46D5-AE63-0F61FA64B9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A833A759-687C-46D5-AE63-0F61FA64B9A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

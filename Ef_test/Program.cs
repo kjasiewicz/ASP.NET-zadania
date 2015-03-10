@@ -10,6 +10,7 @@ using Ef_test.Entities.TPH;
 using System.Configuration;
 using System.Data.SqlClient;
 using Dapper;
+using Ef_test.Entities.TPTInheritance;
 
 namespace Ef_test
 {
@@ -22,6 +23,19 @@ namespace Ef_test
 
             using (var db = new TestContext())
             {
+                db.Shops.Add(new Shop
+
+                    {
+                        Name = "Ath Shop",
+                        Products = new List<Product>
+                        {
+                            new Bike{Name="Rower",BikeType=eBikeType.City, Price=5000},
+                            new Bike{Name="Rower2",BikeType=eBikeType.City, Price=5000},
+                            new Bike{Name="Rower3",BikeType=eBikeType.Cross, Price=5000},
+                            new Tire{Name="Opona1", Price=50, Size=18}
+                        }
+                    });
+                db.SaveChanges();
                 //    var q = from x in db.Persons.OfType<Student>()
                 //            select x;
                 //    foreach (var item in q)
@@ -82,36 +96,37 @@ namespace Ef_test
 
                 //    });
                 //    db.SaveChanges();
-                //}da
-                DateTime m = DateTime.Now;
-                var k = db.Projects.Select(n =>
-                    n).ToList();
-                Console.WriteLine(DateTime.Now - m);
-                foreach (var item in k)
-                {
-                    Console.WriteLine(item.Name);
-                }                             
-            }
-            var con = ConfigurationManager.ConnectionStrings["TestContext"].ConnectionString;
-            using (var a = new SqlConnection(con))
-            {
-                DateTime l = DateTime.Now;
-                //var b = a.Query<Member>("select Imie, Id from Members").Select(n=>
-                //    new 
-                //    {
-                //        n.Name,
-                //        n.Id
-                //    }).ToList();
-                var b = a.GetList<Project>().Select(n =>
-                    new
-                    {
-                        n.Name
-                    }).ToList();
-                Console.WriteLine(DateTime.Now-l);
-                foreach (var item in b)
-                {
-                    Console.WriteLine(item.Name);
-                }
+            //    //}da
+            //    DateTime m = DateTime.Now;
+            //    var k = db.Projects.Select(n =>
+            //        n).ToList();
+            //    Console.WriteLine(DateTime.Now - m);
+            //    foreach (var item in k)
+            //    {
+            //        Console.WriteLine(item.Name);
+            //    }                             
+            //}
+            //var con = ConfigurationManager.ConnectionStrings["TestContext"].ConnectionString;
+            //using (var a = new SqlConnection(con))
+            //{
+            //    DateTime l = DateTime.Now;
+            //    //var b = a.Query<Member>("select Imie, Id from Members").Select(n=>
+            //    //    new 
+            //    //    {
+            //    //        n.Name,
+            //    //        n.Id
+            //    //    }).ToList();
+            //    var b = a.GetList<Project>().Select(n =>
+            //        new
+            //        {
+            //            n.Name
+            //        }).ToList();
+            //    Console.WriteLine(DateTime.Now-l);
+            //    foreach (var item in b)
+            //    {
+            //        Console.WriteLine(item.Name);
+            //    }
+            //
             }
             
         }

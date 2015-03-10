@@ -64,14 +64,19 @@
     <Compile Include="Entities\TPH\School.cs" />
     <Compile Include="Entities\TPH\Student.cs" />
     <Compile Include="Entities\TPH\Teacher.cs" />
+    <Compile Include="Entities\TPTInheritance\Bike.cs" />
+    <Compile Include="Entities\TPTInheritance\Product.cs" />
+    <Compile Include="Entities\TPTInheritance\Shop.cs" />
+    <Compile Include="Entities\TPTInheritance\Tire.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Entities\Project.cs" />
-    <Compile Include="ProjectMembers.cs" />
+    <Compile Include="Entities\ProjectMembers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Entities\Team.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Entities\TPTInheritance\ClassDiagram1.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

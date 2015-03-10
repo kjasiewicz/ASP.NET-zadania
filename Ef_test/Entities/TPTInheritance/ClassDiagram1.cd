@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ef_test.Entities.TPTInheritance.Bike" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\TPTInheritance\Bike.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ef_test.Entities.TPTInheritance.Product" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAQAAAAAAAAAAAAQAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\TPTInheritance\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ef_test.Entities.TPTInheritance.Shop" Collapsed="true">
+    <Position X="3" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Entities\TPTInheritance\Shop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ef_test.Entities.TPTInheritance.Tire" Collapsed="true">
+    <Position X="4.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\TPTInheritance\Tire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Ef_test.Entities.TPTInheritance.eBikeType" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAACAAAAAgAA=</HashCode>
+      <FileName>Entities\TPTInheritance\Bike.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
