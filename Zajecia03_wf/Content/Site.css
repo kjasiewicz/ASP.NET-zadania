@@ -66,6 +66,20 @@ input[type="select"] {
     margin-left:10px;
     color:rosybrown;
 }
+table {
+    width:80%;
+    margin: 0 auto;
+}
+table, td, th {
+    border: 1px solid lightsteelblue;
+}
+
+th {
+    background-color: lightsteelblue;
+    color: white;
+}
+
+
 
 
 
