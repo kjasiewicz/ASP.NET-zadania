@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ef_test", "Ef_test\Ef_test.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zajecia03_wf", "Zajecia03_wf\Zajecia03_wf.csproj", "{A833A759-687C-46D5-AE63-0F61FA64B9A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF_InheritanceDesigner", "EF_InheritanceDesigner\EF_InheritanceDesigner.csproj", "{92E087AE-81AD-44F5-930E-DD84EA0AFA49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF_InheritanceCodeFirst", "EF_InheritanceCodeFirst\EF_InheritanceCodeFirst.csproj", "{CBD52BEC-3F24-41FB-BDDD-CD296457FB1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{A833A759-687C-46D5-AE63-0F61FA64B9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A833A759-687C-46D5-AE63-0F61FA64B9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A833A759-687C-46D5-AE63-0F61FA64B9A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92E087AE-81AD-44F5-930E-DD84EA0AFA49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E087AE-81AD-44F5-930E-DD84EA0AFA49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E087AE-81AD-44F5-930E-DD84EA0AFA49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E087AE-81AD-44F5-930E-DD84EA0AFA49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBD52BEC-3F24-41FB-BDDD-CD296457FB1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBD52BEC-3F24-41FB-BDDD-CD296457FB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBD52BEC-3F24-41FB-BDDD-CD296457FB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBD52BEC-3F24-41FB-BDDD-CD296457FB1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
