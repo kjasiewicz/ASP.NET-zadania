@@ -22,13 +22,13 @@ namespace Zajecia03_wf {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// txtFirstName control.
+        /// ImieAutora control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFirstName;
+        protected global::System.Web.UI.WebControls.TextBox ImieAutora;
         
         /// <summary>
         /// RequiredFieldValidator1 control.
@@ -40,22 +40,13 @@ namespace Zajecia03_wf {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
         
         /// <summary>
-        /// Button1 control.
+        /// NazwiskoAutora control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
-        
-        /// <summary>
-        /// Imie control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Imie;
+        protected global::System.Web.UI.WebControls.TextBox NazwiskoAutora;
         
         /// <summary>
         /// RequiredFieldValidator2 control.
@@ -67,13 +58,13 @@ namespace Zajecia03_wf {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
         
         /// <summary>
-        /// Nazwisko control.
+        /// EmailAutora control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Nazwisko;
+        protected global::System.Web.UI.WebControls.TextBox EmailAutora;
         
         /// <summary>
         /// RequiredFieldValidator3 control.
@@ -85,13 +76,13 @@ namespace Zajecia03_wf {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
         
         /// <summary>
-        /// Email control.
+        /// ImieWspolautora control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Email;
+        protected global::System.Web.UI.WebControls.TextBox ImieWspolautora;
         
         /// <summary>
         /// RequiredFieldValidator4 control.
@@ -103,13 +94,13 @@ namespace Zajecia03_wf {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
         
         /// <summary>
-        /// ImieWspolautora control.
+        /// NazwiskoWspolautora control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ImieWspolautora;
+        protected global::System.Web.UI.WebControls.TextBox NazwiskoWspolautora;
         
         /// <summary>
         /// RequiredFieldValidator5 control.
@@ -121,13 +112,13 @@ namespace Zajecia03_wf {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator5;
         
         /// <summary>
-        /// NazwiskoWspolautora control.
+        /// ImieOpiekuna control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox NazwiskoWspolautora;
+        protected global::System.Web.UI.WebControls.TextBox ImieOpiekuna;
         
         /// <summary>
         /// RequiredFieldValidator6 control.
@@ -139,13 +130,13 @@ namespace Zajecia03_wf {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator6;
         
         /// <summary>
-        /// ImieOpiekuna control.
+        /// NazwiskoOpiekuna control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ImieOpiekuna;
+        protected global::System.Web.UI.WebControls.TextBox NazwiskoOpiekuna;
         
         /// <summary>
         /// RequiredFieldValidator7 control.
@@ -157,13 +148,13 @@ namespace Zajecia03_wf {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator7;
         
         /// <summary>
-        /// NazwiskoOpiekuna control.
+        /// NazwaSzkoly control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox NazwiskoOpiekuna;
+        protected global::System.Web.UI.WebControls.TextBox NazwaSzkoly;
         
         /// <summary>
         /// RequiredFieldValidator8 control.
@@ -173,5 +164,68 @@ namespace Zajecia03_wf {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator8;
+        
+        /// <summary>
+        /// AdresSzkoly control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox AdresSzkoly;
+        
+        /// <summary>
+        /// RequiredFieldValidator9 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator9;
+        
+        /// <summary>
+        /// TytulReferatu control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TytulReferatu;
+        
+        /// <summary>
+        /// RequiredFieldValidator10 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator10;
+        
+        /// <summary>
+        /// StreszczenieReferatu control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox StreszczenieReferatu;
+        
+        /// <summary>
+        /// RequiredFieldValidator11 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator11;
+        
+        /// <summary>
+        /// ButtonWyslij control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonWyslij;
     }
 }

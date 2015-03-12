@@ -1,13 +1,14 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
 body {
-    padding-top: 50px;
+    padding-top: 0;
     padding-bottom: 20px;
 }
+
 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
+    padding-left: 0;
     padding-right: 15px;
 }
 
@@ -36,3 +37,37 @@ input[type="select"] {
         padding: 0;
     }
 }
+
+.Naglowek_gwiazdka {
+    /*width:10px;
+    height:10px;
+    position:relative;*/
+    font-size:25px;
+    color:red;
+    display: table-cell;
+}
+.Box {
+    width:auto;
+    height:auto;
+    
+}
+.Naglowek {
+        font-size:20px;
+        font-weight:bold;
+        display: inline-table;
+    }
+.Dane {
+    font-size:16px;
+    color:GrayText;
+}
+.Komunikat {
+    font-size:13px;
+    text-align:center;
+    margin-left:10px;
+    color:rosybrown;
+}
+
+
+
+
+
