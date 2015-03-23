@@ -12,6 +12,7 @@ namespace Zajecia03_wf
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //zczytywanie z bazy i zapisanie do repeatera
             using (var x = new formcontext())
             {
                 var q = x.Formularz.Select(j => j).ToList();
@@ -38,10 +39,12 @@ namespace Zajecia03_wf
                     TytulReferatu = TytulReferatu.Text
                 });
                 x.SaveChanges();
-
+                
+                //aktualizacja repeatera
                 var q = x.Formularz.Select(j => j).ToList();
                 Repeater1.DataSource = q;
                 Repeater1.DataBind();
+                CzyscForme();
             }
         }
         protected void CzyscForme()

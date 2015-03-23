@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF_InheritanceDesigner", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF_InheritanceCodeFirst", "EF_InheritanceCodeFirst\EF_InheritanceCodeFirst.csproj", "{CBD52BEC-3F24-41FB-BDDD-CD296457FB1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zaj04", "zaj04\zaj04.csproj", "{C135AAF0-CEBC-4D9E-9445-5200BB7691B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{CBD52BEC-3F24-41FB-BDDD-CD296457FB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBD52BEC-3F24-41FB-BDDD-CD296457FB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBD52BEC-3F24-41FB-BDDD-CD296457FB1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C135AAF0-CEBC-4D9E-9445-5200BB7691B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C135AAF0-CEBC-4D9E-9445-5200BB7691B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C135AAF0-CEBC-4D9E-9445-5200BB7691B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C135AAF0-CEBC-4D9E-9445-5200BB7691B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
