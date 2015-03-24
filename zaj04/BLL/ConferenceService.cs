@@ -4,7 +4,9 @@ using System.ComponentModel;
 using System.Linq;
 using System.Web;
 using zaj04.Models;
+using zaj04.Models.EF;
 using zaj04.Repository.Concrete;
+using zaj04.Repository.Intefaces;
 using zaj04.ViewModel;
 
 namespace zaj04.BLL
@@ -12,10 +14,10 @@ namespace zaj04.BLL
     [DataObject]
     public class ConferenceService
     {
-        private StaticConferenceRepository _conferenceRepository;
+        private IConferenceRepository _conferenceRepository;
         public ConferenceService()
         {
-            _conferenceRepository = new StaticConferenceRepository();
+            _conferenceRepository = new EFConferenceRepository();
         }
 
         public void Register(ConferenceViewModel conferenceViewModel)
@@ -24,7 +26,7 @@ namespace zaj04.BLL
             {
                 AuthorFirstName = conferenceViewModel.AuthorFirstName,
                 AuthorLastName = conferenceViewModel.AuthorLastName,
-                AuthorMail = conferenceViewModel.AuthorMail,
+                Email = conferenceViewModel.AuthorMail,
                 ArticleTitle = conferenceViewModel.ArticleTitle,
                 ArticleAbstract = conferenceViewModel.ArticleAbstract
             });
@@ -37,7 +39,7 @@ namespace zaj04.BLL
                 {
                     AuthorFirstName = n.AuthorFirstName,
                     AuthorLastName = n.AuthorLastName,
-                    AuthorMail = n.AuthorMail,
+                    AuthorMail = n.Email,
                     ArticleTitle = n.ArticleTitle,
                     ArticleAbstract = n.ArticleAbstract
                 }).ToList();

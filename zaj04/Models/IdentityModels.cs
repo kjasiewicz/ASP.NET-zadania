@@ -38,6 +38,8 @@ namespace zaj04.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<zaj04.Models.EF.Conference> Conferences { get; set; }
     }
 }
 

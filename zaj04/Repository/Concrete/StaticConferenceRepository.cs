@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using zaj04.Models;
+using zaj04.Models.EF;
 using zaj04.Repository.Intefaces;
 
 namespace zaj04.Repository.Concrete
@@ -18,12 +19,12 @@ namespace zaj04.Repository.Concrete
         {
 
         }
-        public void Add(Models.Conference conference)
+        public void Add(Conference conference)
         {
             _conferenceRegistrations.Add(conference);
         }
 
-        public IQueryable<Models.Conference> GetAll()
+        public IQueryable<Conference> GetAll()
         {
             return _conferenceRegistrations.AsQueryable();
         }

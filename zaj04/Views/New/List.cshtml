@@ -1,0 +1,48 @@
+﻿@model IEnumerable<zaj04.ViewModel.ConferenceViewModel>
+
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Index")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.AuthorFirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AuthorLastName)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.ArticleTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ArticleAbstract)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.AuthorFirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AuthorLastName)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.ArticleTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ArticleAbstract)
+        </td>
+    </tr>
+}
+
+</table>
